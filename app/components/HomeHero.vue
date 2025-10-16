@@ -19,9 +19,9 @@
         شما ارائه می‌دهیم.
       </p>
 
-      <UButton icon="lucide-rocket" class="pr-4 pl-4 pt-2 pb-2" size="xl"
-        >شروع همکاری</UButton
-      >
+      <UButton icon="lucide-rocket" class="pr-4 pl-4 pt-2 pb-2" size="xl">
+        شروع همکاری
+      </UButton>
     </div>
     <FadeContent
       :blur="true"
@@ -33,7 +33,7 @@
     >
       <NuxtImg
         src="/logo-hero.png"
-        class="h-56 lg:h-80"
+        class="h-56 lg:h-96"
         alt="VeezoLogo"
         quality="100"
       />

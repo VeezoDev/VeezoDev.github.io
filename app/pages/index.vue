@@ -18,5 +18,6 @@
     <HomeStepper />
     <USeparator />
     <HomeFaq />
+    <HomeStart />
   </div>
 </template>
