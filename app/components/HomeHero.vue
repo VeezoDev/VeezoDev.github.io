@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col-reverse items-center lg:flex-row justify-center-safe"
+    class="flex flex-col-reverse items-center lg:flex-row justify-center-safe mt-10"
   >
     <div
       class="flex flex-col gap-8 items-center text-center ml-8 mr-8 lg:text-right lg:items-start"

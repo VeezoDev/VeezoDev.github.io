@@ -65,7 +65,7 @@ const items2 = computed<NavigationMenuItem[]>(() => [
           کسب‌وکار شما ارائه می‌دهیم.
         </p>
       </div>
-      <div class="flex justify-center mt-8 gap-20">
+      <div class="flex justify-center mt-8 gap-22">
         <UNavigationMenu
           :items="items1"
           variant="link"
