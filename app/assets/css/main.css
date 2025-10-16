@@ -1,10 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-:root {
-  --ui-radius: 1rem;
-}
-
 * {
   font-family: "YekanBakh";
 }

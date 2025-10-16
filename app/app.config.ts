@@ -3,10 +3,10 @@ export default defineAppConfig({
     colors: {
       primary: "blue",
     },
-    // navigationMenu: {
-    //     slots: {
-    //         link: "before:rounded-full",
-    //     },
-    // },
+    navigationMenu: {
+      slots: {
+        link: "before:rounded-full",
+      },
+    },
   },
 });
