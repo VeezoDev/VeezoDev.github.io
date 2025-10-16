@@ -3,6 +3,11 @@ export default defineAppConfig({
     colors: {
       primary: "blue",
     },
+    icons: {
+      system: "i-ph-desktop",
+      light: "i-ph-sun",
+      dark: "i-ph-moon",
+    },
     navigationMenu: {
       slots: {
         link: "before:rounded-full",

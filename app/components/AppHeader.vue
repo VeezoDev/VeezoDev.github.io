@@ -32,7 +32,7 @@ const items = computed<NavigationMenuItem[]>(() => [
 <template>
   <UHeader
     toggle-side="left"
-    class="border-1 rounded-full shadow-sm max-w-320 m-1 xl:m-auto xl:mt-1 xl:mb-2"
+    class="border-1 rounded-full shadow-sm max-w-320 mr-1 ml-1 xl:m-auto xl:mb-2"
   >
     <template #title>
       <NuxtLink to="/" class="flex flex-row self-center">
