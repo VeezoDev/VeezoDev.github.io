@@ -3,5 +3,20 @@
     <HomeHero />
     <HomeCards />
     <HomeContent />
+    <div>
+      <TrueFocus
+        sentence="چسی چسی چسی"
+        :manual-mode="false"
+        :blur-amount="10"
+        border-color="blue"
+        :animation-duration="1"
+        :pause-between-animations="1"
+      />
+    </div>
+    <HomeContent2 />
+    <USeparator />
+    <HomeStepper />
+    <USeparator />
+    <HomeFaq />
   </div>
 </template>

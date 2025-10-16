@@ -19,7 +19,7 @@
         شما ارائه می‌دهیم.
       </p>
 
-      <UButton icon="lucide-rocket" class="pr-4 pl-4 pt-2 pb-2"
+      <UButton icon="lucide-rocket" class="pr-4 pl-4 pt-2 pb-2" size="xl"
         >شروع همکاری</UButton
       >
     </div>
