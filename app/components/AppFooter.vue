@@ -51,7 +51,7 @@ const items2 = computed<NavigationMenuItem[]>(() => [
 </script>
 
 <template>
-  <USeparator />
+  <USeparator class="mt-10" />
 
   <UFooter>
     <div class="flex flex-col lg:flex-row lg:mb-5">
