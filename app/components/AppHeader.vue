@@ -36,7 +36,7 @@ const items = computed<NavigationMenuItem[]>(() => [
   >
     <template #title>
       <NuxtLink to="/" class="flex flex-row self-center">
-        <NuxtImg src="/logo-hero.png" class="size-8" />
+        <img src="/logo-hero.png" class="size-8" >
         <p class="text-2xl font-bold text-toned">ویـــــزو</p>
       </NuxtLink>
     </template>
