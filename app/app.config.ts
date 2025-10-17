@@ -28,13 +28,6 @@ export default defineAppConfig({
           "shrink-0 size-5 ms-auto group-data-[state=open]:rotate-180 transition-transform duration-200",
         label: "text-start text-base font-bold break-words",
       },
-      // variants: {
-      //   disabled: {
-      //     true: {
-      //       trigger: "cursor-not-allowed opacity-75",
-      //     },
-      //   },
-      // },
     },
   },
 });

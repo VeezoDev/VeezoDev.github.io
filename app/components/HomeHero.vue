@@ -31,12 +31,11 @@
       :initial-opacity="0.1"
       easing="ease-out"
     >
-      <NuxtImg
+      <img
         src="/logo-hero.png"
         class="h-56 lg:h-96"
         alt="VeezoLogo"
-        quality="100"
-      />
+      >
     </FadeContent>
   </div>
 </template>
