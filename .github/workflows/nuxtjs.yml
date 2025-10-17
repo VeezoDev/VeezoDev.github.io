@@ -70,7 +70,7 @@ jobs:
       - name: Install dependencies
         run: bun install
       - name: Static HTML export with Nuxt
-        run: bun run generate
+        run: bunx nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
