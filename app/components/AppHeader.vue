@@ -32,7 +32,7 @@ const items = computed<NavigationMenuItem[]>(() => [
 <template>
   <UHeader
     toggle-side="left"
-    class="border-1 rounded-full shadow-sm max-w-320 mr-1 ml-1 xl:m-auto xl:mb-2"
+    class="shadow-sm max-w-320 xl:m-auto xl:mb-2 lg:border-1 lg:rounded-full"
   >
     <template #title>
       <NuxtLink to="/" class="flex flex-row self-center">
@@ -42,13 +42,13 @@ const items = computed<NavigationMenuItem[]>(() => [
     </template>
 
     <template #body>
-      <UNavigationMenu :items="items" orientation="vertical" class="-mx-2" />
+      <UNavigationMenu :items="items" orientation="vertical" class="" />
     </template>
 
     <UNavigationMenu :items="items" />
 
     <template #right>
-      <UTooltip text="Open on GitHub">
+      <UTooltip text="بریم گیت‌هاب">
         <UButton
           variant="ghost"
           class="text-toned"
@@ -59,7 +59,8 @@ const items = computed<NavigationMenuItem[]>(() => [
         />
       </UTooltip>
 
-      <UColorModeButton class="text-toned" />
+      <!-- <UColorModeButton class="text-toned" /> -->
+      <ColorModeBtn />
     </template>
   </UHeader>
 </template>

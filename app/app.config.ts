@@ -2,6 +2,7 @@ export default defineAppConfig({
   ui: {
     colors: {
       primary: "blue",
+      neutral: "neutral",
     },
     icons: {
       system: "i-ph-desktop",
@@ -10,7 +11,7 @@ export default defineAppConfig({
     },
     navigationMenu: {
       slots: {
-        link: "before:rounded-full",
+        link: "before:rounded-lg xl:before:rounded-full",
       },
     },
     accordion: {

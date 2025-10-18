@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex gap-6 flex-col max-w-96 mt-28 mb-10 m-auto lg:flex-row lg:max-w-350"
+    class="flex gap-6 flex-col mx-3.5 max-w-96 mt-28 mb-10 m-auto lg:flex-row lg:max-w-350"
   >
     <SpotlightCard
       spotlight-color="rgba(43, 127, 255, 0.75)"

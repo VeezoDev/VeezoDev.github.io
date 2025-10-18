@@ -35,7 +35,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex flex-col gap-8 mb-20 mt-20 text-center">
+  <div class="flex flex-col mx-3.5 gap-8 mb-20 mt-20 text-center">
     <p class="text-4xl font-bold text-toned">مسیر خلق محصول در ویـــزو</p>
     <p class="text-xl text-muted">
       کتابخانه کامل کامپوننت‌های رابط کاربری Nuxt با بیش از ۱۰۰ کامپوننت Vue.

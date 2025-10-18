@@ -19,7 +19,7 @@
         شما ارائه می‌دهیم.
       </p>
 
-      <UButton icon="lucide-rocket" class="pr-4 pl-4 pt-2 pb-2" size="xl">
+      <UButton icon="lucide-rocket" class="pr-4 pl-4 pt-2 pb-2 mt-4" size="xl">
         شروع همکاری
       </UButton>
     </div>
@@ -33,7 +33,7 @@
     >
       <NuxtImg
         src="/logo-hero.png"
-        class="h-56 lg:h-96"
+        class="h-56 lg:h-96 mask-b-from-65"
         alt="VeezoLogo"
         quality="100"
       />

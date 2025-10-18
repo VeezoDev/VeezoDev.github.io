@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-between items-center mt-24 mb-24 lg:flex-row"
+    class="flex flex-col justify-between items-center mt-24 mb-24 lg:mx-4 lg:flex-row"
   >
     <div>
       <div
@@ -18,7 +18,7 @@
       <div class="flex flex-col gap-3">
         <div class="flex gap-3">
           <UIcon name="lucide-package-open" class="bg-primary size-6" />
-          <p class="text-muted max-w-84 lg:max-w-150">
+          <p class="text-muted max-w-80 lg:max-w-150">
             از دکمه‌ها گرفته تا ماژول‌ها، از جداول داده گرفته تا فرم‌ها - همه با
             Tailwind CSS استایل‌بندی شده‌اند و به صورت آماده در دسترس هستند.
           </p>

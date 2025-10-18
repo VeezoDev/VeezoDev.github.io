@@ -92,7 +92,6 @@ const items2 = computed<NavigationMenuItem[]>(() => [
     </template>
 
     <template #right>
-      <UColorModeSelect variant="subtle" />
       <UButton
         icon="i-simple-icons-telegram"
         color="neutral"

@@ -31,7 +31,7 @@ const items = ref<AccordionItem[]>([
 </script>
 
 <template>
-  <div class="flex flex-col gap-7 mt-24 mb-24 items-center">
+  <div class="flex flex-col gap-7 mx-4 mt-24 mb-24 items-center">
     <p class="text-4xl font-bold text-primary">سوالات متداول</p>
     <p class="text-base text-muted mb-8">
       اگر چیزی که دنبالش هستید را پیدا نکردید، به تیم پشتیبانی ما ایمیل بزنید و
