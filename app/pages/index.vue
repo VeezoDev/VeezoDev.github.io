@@ -1,18 +1,8 @@
 <template>
   <div>
-    <div class="w-full h-210 lg:h-172 absolute -z-10">
-      <Plasma
-        color="#0055af"
-        :speed="1"
-        direction="forward"
-        :scale="1.1"
-        :opacity="0.5"
-        :mouse-interactive="false"
-        class="mask-b-from-30 -mt-28 hidden lg:block"
-      />
-      <NuxtImg
-        src="/m-back.png"
-        class="block mt-8 lg:hidden w-full opacity-50 mask-y-from-80"
+    <div class="w-full h-full absolute -z-10">
+      <div
+        class="bg-[radial-gradient(ellipse_50%_100%_at_50.00%_50.00%,_rgba(43,_127,_255,_0.13)_0%,_var(--ui-secondary-10,_rgba(43,_127,_255,_0.0))_100%)] w-full -mt-28 h-full mask-b-from-180"
       />
     </div>
     <div class="m-auto max-w-96 lg:max-w-340">

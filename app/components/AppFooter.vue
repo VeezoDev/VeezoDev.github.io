@@ -84,7 +84,7 @@ const items2 = computed<NavigationMenuItem[]>(() => [
 
   <USeparator />
 
-  <UFooter>
+  <UFooter class="mt-3 mb-6">
     <template #left>
       <p class="text-muted text-sm">
         Copyright © {{ new Date().getFullYear() }}. All rights reserved
@@ -92,27 +92,36 @@ const items2 = computed<NavigationMenuItem[]>(() => [
     </template>
 
     <template #right>
-      <UButton
-        icon="i-simple-icons-telegram"
-        color="neutral"
-        variant="ghost"
-        target="_blank"
-        aria-label="Telegram"
-      />
-      <UButton
-        icon="i-simple-icons-x"
-        color="neutral"
-        variant="ghost"
-        target="_blank"
-        aria-label="X"
-      />
-      <UButton
-        icon="i-simple-icons-github"
-        color="neutral"
-        variant="ghost"
-        target="_blank"
-        aria-label="GitHub"
-      />
+      <div
+        class="flex flex-col-reverse items-center gap-5 lg:flex-row lg:gap-2"
+      >
+        <div class="mx-4 w-28">
+          <ColorThemeTab />
+        </div>
+        <div class="flex gap-1.5">
+          <UButton
+            icon="i-simple-icons-telegram"
+            color="neutral"
+            variant="ghost"
+            target="_blank"
+            aria-label="Telegram"
+          />
+          <UButton
+            icon="i-simple-icons-x"
+            color="neutral"
+            variant="ghost"
+            target="_blank"
+            aria-label="X"
+          />
+          <UButton
+            icon="i-simple-icons-github"
+            color="neutral"
+            variant="ghost"
+            target="_blank"
+            aria-label="GitHub"
+          />
+        </div>
+      </div>
     </template>
   </UFooter>
 </template>

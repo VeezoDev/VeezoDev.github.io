@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { fa_ir } from "@nuxt/ui/locale";
-const colorMode = useColorMode();
-colorMode.preference = "dark";
+// const colorMode = useColorMode();
+// colorMode.preference = "dark";
 </script>
 
 <template>

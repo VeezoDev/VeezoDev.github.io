@@ -11,7 +11,7 @@ export default defineAppConfig({
     },
     navigationMenu: {
       slots: {
-        link: "before:rounded-lg xl:before:rounded-full",
+        link: "before:rounded-2xl xl:before:rounded-3xl",
       },
     },
     accordion: {
@@ -29,6 +29,28 @@ export default defineAppConfig({
           "shrink-0 size-5 ms-auto group-data-[state=open]:rotate-180 transition-transform duration-200",
         label: "text-start text-base font-bold break-words",
       },
+    },
+    tabs: {
+      variants: {
+        variant: {
+          pill: {
+            list: "bg-default border border-default rounded-3xl",
+            trigger: "grow",
+            indicator: "rounded-3xl shadow-xs",
+          },
+        },
+      },
+      compoundVariants: [
+        {
+          color: "neutral",
+          variant: "pill",
+          class: {
+            indicator: "bg-accented",
+            trigger:
+              "data-[state=active]:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-inverted",
+          },
+        },
+      ],
     },
   },
 });

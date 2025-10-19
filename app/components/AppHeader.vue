@@ -27,12 +27,27 @@ const items = computed<NavigationMenuItem[]>(() => [
     class: "p-2.5",
   },
 ]);
+
+window.onscroll = () => scrlFn();
+
+function scrlFn() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header")!.style.maxWidth =
+      "calc(var(--spacing) * 280)";
+  } else {
+    document.getElementById("header")!.style.maxWidth =
+      "calc(var(--spacing) * 320)";
+  }
+}
 </script>
 
 <template>
   <UHeader
+    id="header"
+    ref="headRef"
     toggle-side="left"
-    class="shadow-sm max-w-320 xl:m-auto xl:mb-2 lg:border-1 lg:rounded-full"
+    class="shadow-sm xl:m-auto xl:mb-2 lg:border-1 lg:rounded-full"
+    style="max-width: calc(var(--spacing) * 320); transition: 0.4s"
   >
     <template #title>
       <NuxtLink to="/" class="flex flex-row self-center">
@@ -60,7 +75,6 @@ const items = computed<NavigationMenuItem[]>(() => [
       </UTooltip>
 
       <!-- <UColorModeButton class="text-toned" /> -->
-      <ColorModeBtn />
     </template>
   </UHeader>
 </template>
