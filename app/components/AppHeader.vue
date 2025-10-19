@@ -28,17 +28,17 @@ const items = computed<NavigationMenuItem[]>(() => [
   },
 ]);
 
-window.onscroll = () => scrlFn();
+// window.onscroll = () => scrlFn();
 
-function scrlFn() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("header")!.style.maxWidth =
-      "calc(var(--spacing) * 280)";
-  } else {
-    document.getElementById("header")!.style.maxWidth =
-      "calc(var(--spacing) * 320)";
-  }
-}
+// function scrlFn() {
+//   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+//     document.getElementById("header")!.style.maxWidth =
+//       "calc(var(--spacing) * 280)";
+//   } else {
+//     document.getElementById("header")!.style.maxWidth =
+//       "calc(var(--spacing) * 320)";
+//   }
+// }
 </script>
 
 <template>
