@@ -74,7 +74,7 @@ const items = computed<NavigationMenuItem[]>(() => [
         />
       </UTooltip>
 
-      <!-- <UColorModeButton class="text-toned" /> -->
+      <UColorModeButton class="text-toned" />
     </template>
   </UHeader>
 </template>
