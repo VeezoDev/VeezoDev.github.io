@@ -4,9 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui"],
   css: ["~/assets/css/main.css"],
-  image: {
-    ipx: {baseURL: '/images/'}
-  },
   fonts: {
     local: {},
   },
